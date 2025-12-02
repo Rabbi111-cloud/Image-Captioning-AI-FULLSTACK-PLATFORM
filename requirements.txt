@@ -2,5 +2,5 @@ fastapi
 uvicorn
 pillow
 transformers
-torch==2.2.0
+torch==2.9.1
 python-multipart
