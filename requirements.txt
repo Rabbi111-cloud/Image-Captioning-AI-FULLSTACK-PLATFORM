@@ -1,13 +1,6 @@
-# requirements.txt
-requirements = """
 fastapi
 uvicorn
-torch
-torchvision
+pillow
 transformers
-gradio
-requests
-Pillow
-"""
-with open("requirements.txt","w") as f:
-    f.write(requirements)
+torch
+
