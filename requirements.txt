@@ -1,0 +1,13 @@
+# requirements.txt
+requirements = """
+fastapi
+uvicorn
+torch
+torchvision
+transformers
+gradio
+requests
+Pillow
+"""
+with open("requirements.txt","w") as f:
+    f.write(requirements)
