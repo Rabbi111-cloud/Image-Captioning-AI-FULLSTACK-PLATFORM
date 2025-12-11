@@ -30,7 +30,3 @@ async def caption_image(file: UploadFile = File(...)):
 
     return {"caption": caption}
 
-# Required for Render
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=10000)
